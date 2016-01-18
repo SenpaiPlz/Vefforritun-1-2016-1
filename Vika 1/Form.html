@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>An Awsome Form</title>
+	</head>
+	<body>
+		<form action="Form.html" method="post">
+			<fieldset>
+				<legend>Personal</legend>
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name"/>
+				</div>
+				<div>
+					<label for="ssn">SSN:</label>
+					<input type="text" id="ssn" name="ssn"/>
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email"/>
+				</div>
+				<div>
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password"/>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Details</legend>
+				<div>
+					<input type="radio" name="gender" id="male" value="male" Checked>
+					<label for="male">Male</label>
+				</div>
+				<div>
+					<input type="radio" name="gender" id="female" value="female">
+					<label for="female">Female</label>
+				</div>
+				<div>
+					<input type="radio" name="gender" id="other" value="other">
+					<label for="other">Other</label>
+				</div>
+				<div>
+					<label for="checkbox">I smoke</label>
+					<input type="checkbox" name="smoker checkbox" id="checkbox" value="1">
+				</div>
+				<div>
+					<label for="studies">I am studying</label>
+					<select name="studies" id="studies">
+						<option value="CSS">ComputerScience</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>About me</legend>
+				<div>
+				<label for="about">About me:</label>
+				<textarea rows="8" cols="50" name="about me" id="about">
+					</textarea> 
+				</div>
+			</fieldset>
+			<input type="submit" name="submit" id="submit" value="Submit">
+		</form>
+	</body>
+</html>
+
+
+
