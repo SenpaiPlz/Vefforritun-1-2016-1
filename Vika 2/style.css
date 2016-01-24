@@ -1,0 +1,79 @@
+*
+{
+	font-family: "Arial",sans-serif;
+	line-height: 1.5;
+}
+
+h1
+{
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 1.75em;
+	color: #ffffff;
+	background-color: rgb(15,79,122);
+}
+
+h2
+{
+	font-size: 1.25em;
+	font-weight: 700;
+	border-top:2px solid rgb(15,79,122);
+}
+
+dl dt
+{
+	font-style: oblique;
+}
+
+table
+{
+	margin: 1em auto;
+	border-collapse: collapse;
+}
+
+thead td, th
+{
+	padding-right: 6em;
+}
+
+tr:nth-child(even)
+{
+	background-color: rgb(226,235,241);
+}
+
+table tbody tr > th
+{
+	font-weight: normal;
+}
+
+table thead
+{
+	color: #ffffff;
+	background: rgb(15,79,122);
+	background: -webkit-linear-gradient(bottom, rgb(150,178,197), rgb(15,79,122)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgb(150,178,197), rgb(15,79,122)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgb(150,178,197), rgb(15,79,122)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgb(150,178,197), rgb(15,79,122)); /* Standard syntax */
+}
+
+ol
+{
+	list-style: lower-alpha;
+}
+
+ul
+{
+	/*padding-left: 1em;
+	list-style: none;*/
+}
+
+ul li:before
+{
+	/*content: "\2666 \0020";*/
+}
+
+tr
+{
+	border-bottom: 1px solid rgb(204,204,204);
+}
