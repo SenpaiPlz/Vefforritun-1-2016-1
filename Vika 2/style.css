@@ -49,12 +49,12 @@ table tbody tr > th
 
 table thead
 {
-	color: #ffffff;
-	background: rgb(15,79,122);
-	background: -webkit-linear-gradient(bottom, rgb(150,178,197), rgb(15,79,122)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, rgb(150,178,197), rgb(15,79,122)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, rgb(150,178,197), rgb(15,79,122)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to top, rgb(150,178,197), rgb(15,79,122)); /* Standard syntax */
+    	color: #ffffff;
+   	background: rgb(15,79,122);
+  	background: -webkit-linear-gradient(bottom, rgb(150,178,197), rgb(15,79,122)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(top, rgb(150,178,197), rgb(15,79,122)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(top, rgb(150,178,197), rgb(15,79,122)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top, rgb(150,178,197), rgb(15,79,122)); /* Standard syntax */
 }
 
 ol

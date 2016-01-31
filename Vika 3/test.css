@@ -1,0 +1,22 @@
+#mainwrap
+{
+	width: 1024px;
+	overflow: auto;
+	margin: auto;
+	background-color: cyan;
+}
+
+#content
+{
+	float: right;
+	width: 75%;
+	display: inline;
+	background-color: red;
+}
+
+#navigation
+{
+	background-color: blue;
+	float: left;
+	width: 25%;
+}
