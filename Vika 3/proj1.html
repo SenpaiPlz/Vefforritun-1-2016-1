@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-16">
 		<link rel="stylesheet" type="text/css" href="test.css">
 	</head>
 	<body>
+	<div id=wrap>
 		<div id=header>
-			<p>This is the header</p>
+			<div id=logo>
+				<p>YourSchool<img src="hr.png" width="48" height="48" align="center" align="right"/></p>
+			</div>
+			<div>
+				<h1>students list</h1>
+			</div>
 		</div>
-		<div id=mainwrap>
+		<div id=contentwrap>
 			<div id=content>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
-				<p>This is the content</p>
+				<div>
+					<h2>Students</h2>
+					<p>Lorem ipsum dolor sit amet, antiopam ocurreret contentiones cu vim, cu unum abhorreant vim, no habeo iriure mel. Eam adhuc recteque scriptorem ne, ius cu congue recusabo. No nam nostro ancillae qualisque, mei labitur abhorreant ex. Ad legimus epicuri mei, te quo sint feugiat conclusionemque. Vel dicit reprimique cu, inermis perpetua ea mei.<p>
+				</div>
+				<div>
+					<form action="">
+						<div>
+							<label>Name</label>
+							<input type=text name=name>
+							<label for=department>department</label>
+							<select id=department name=department>
+								<option value=CSS>Computer Science</option>
+								<option value=CSS>Business</option>
+								<option value=CSS>Law</option>
+							</select>
+							<button type="button">Search</button>
+						</div>
+						<div>
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Email</th>
+										<th>Department</th>
+										<th>Phone</th>
+										<th>Photo</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>John Doe</td>
+										<td>johndoe@example.com</td>
+										<td>Computer Science</td>
+										<td>555 4321</td>
+										<td><img src="person.png"width="48" height="48"/></td>
+									</tr>
+									<tr>
+										<td>John Doe</td>
+										<td>johndoe@example.com</td>
+										<td>Computer Science</td>
+										<td>555 4321</td>
+										<td><img src="person.png"width="48" height="48"/></td>
+									</tr>
+									<tr>
+										<td>John Doe</td>
+										<td>johndoe@example.com</td>
+										<td>Engineering</td>
+										<td>555 4321</td>
+										<td><img src="person.png"width="48" height="48"/></td>
+									</tr>
+									<tr>
+										<td>John Doe</td>
+										<td>johndoe@example.com</td>
+										<td>Engineering</td>
+										<td>555 4321</td>
+										<td><img src="person.png"width="48" height="48"/></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</form>
+				</div>
 			</div>
 			<div id=navigation>
-				<p>This is the navigation</p>
+				<ol>
+					<li><a href="">homepage</a></li>
+					<li><a href="">student list</a></li>
+					<li><a href="">messages</a></li>
+					<li><a href="">learning outcome</a></li>
+					<li><a href="">teaching methods</a></li>
+					<li><a href="">assessment meth</a></li>
+					<li><a href="">syllabus</a></li>
+					<li><a href="">timeplan</a></li>
+					<li><a href="">books</a></li>
+					<li><a href="">assignments</a></li>
+					<li><a href="">settings</a></li>
+				</ol>
 			</div>
 		</div>
 		<div id=footer>
-			<p>This is the footer</p>
+			<p>Mainstreet 13</p>
+			<p>666 Reykjavík</p>
+			<a href="mailto:yourschool@yourschool.is">yourschool@yourschool.is</a>
+			<p>Phone: 555 1234</p>
 		</div>
+	</div>
 	</body>
 </html>
